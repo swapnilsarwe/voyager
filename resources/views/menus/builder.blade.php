@@ -207,7 +207,7 @@
                     $m_hd_add.hide();
                     $m_hd_edit.show();
 
-                    var _src = e.relatedTarget.data, // the source
+                    var _src = e.relatedTarget.data, /* the source */
                         id   = _src.data('id');
 
                     $m_title.val(_src.data('title'));
